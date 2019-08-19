@@ -49,7 +49,6 @@ function checkForMatch(){
         moves.innerHTML = movesCount;
        let isMatched = firstCard.firstElementChild.style.backgroundColor === secondCard.firstElementChild.style.backgroundColor;
        if(isMatched){
-                matchedOrNotAni();
                successCount++;
                disableCards();
                winGame();
